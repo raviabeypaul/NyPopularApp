@@ -5,6 +5,7 @@ A simple android app that hits NY Times Most Popular Articles API and show a lis
 1. Model–view–viewmodel (MVVM) architectural pattern
 2. Retrofit server call 
 3. NDK/C++ secure api key and urls
+4. Data Binding
 
 ## Screens
 

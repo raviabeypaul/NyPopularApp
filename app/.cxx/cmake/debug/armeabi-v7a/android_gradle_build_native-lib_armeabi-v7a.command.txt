@@ -1,7 +1,7 @@
 Executable : C:\Users\VideoTap\AppData\Local\Android\Sdk\cmake\3.6.4111459\bin\cmake.exe
 arguments : 
 --build
-D:\ravi_android_projects\NYTimes\app\.cxx\cmake\debug\armeabi-v7a
+D:\ravi_android_projects\NyTimesPopular\app\.cxx\cmake\debug\armeabi-v7a
 --target
 native-lib
 jvmArgs : 

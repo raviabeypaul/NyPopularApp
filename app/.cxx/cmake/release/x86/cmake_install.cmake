@@ -1,4 +1,4 @@
-# Install script for directory: D:/ravi_android_projects/NYTimes/app
+# Install script for directory: D:/ravi_android_projects/NyTimesPopular/app
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/ravi_android_projects/NYTimes/app/.cxx/cmake/release/x86/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/ravi_android_projects/NyTimesPopular/app/.cxx/cmake/release/x86/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
