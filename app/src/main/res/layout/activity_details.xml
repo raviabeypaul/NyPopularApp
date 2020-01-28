@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    tools:context="com.ceylonapz.nytimes.view.DetailsActivity">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:bind="http://schemas.android.com/apk/res-auto"
+    tools:context="com.ravi.newsNyTimes.view.DetailsActivity">
 
     <data>
 
         <variable
             name="news"
-            type="com.ceylonapz.nytimes.model.News" />
+            type="com.ravi.newsNyTimes.data.model.News" />
     </data>
 
     <LinearLayout
@@ -15,17 +17,19 @@
         android:layout_height="wrap_content"
         android:clickable="true"
         android:focusable="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
         android:foreground="?android:attr/selectableItemBackground"
         android:orientation="vertical">
 
-        <!--Photo Image android:src="@{news.photoUrl}"-->
+
         <ImageView
+            android:id="@+id/iv"
             android:layout_width="match_parent"
-            android:layout_height="150dp"
-            android:background="@drawable/ic_launcher_background"
+            android:layout_height="250dp"
+            bind:imageUrl="@{news.imageUrl}"
             android:contentDescription="@string/news_image" />
 
-        <!--News Details-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -52,6 +56,11 @@
                 android:layout_height="wrap_content"
                 android:gravity="end"
                 android:text="@{news.published_date}" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="@{news.abstractText}"
+                android:layout_height="wrap_content"/>
 
         </LinearLayout>
 

@@ -1,0 +1,72 @@
+{
+  "variant": {
+    "module": {
+      "rootBuildGradleFolder": "D:\\ravi_android_projects\\NYTimes",
+      "sdkFolder": "C:\\Users\\VideoTap\\AppData\\Local\\Android\\Sdk",
+      "isNativeCompilerSettingsCacheEnabled": false,
+      "isBuildOnlyTargetAbiEnabled": true,
+      "splitsAbiFilterSet": [],
+      "intermediatesFolder": "D:\\ravi_android_projects\\NYTimes\\app\\build\\intermediates",
+      "gradleModulePathName": ":app",
+      "moduleRootFolder": "D:\\ravi_android_projects\\NYTimes\\app",
+      "makeFile": "D:\\ravi_android_projects\\NYTimes\\app\\CMakeLists.txt",
+      "buildSystem": "CMAKE",
+      "compilerSettingsCacheFolder": "D:\\ravi_android_projects\\NYTimes\\.cxx",
+      "cxxFolder": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx",
+      "ndkFolder": "C:\\Users\\VideoTap\\AppData\\Local\\Android\\Sdk\\ndk\\20.1.5948944",
+      "ndkVersion": "20.1.5948944",
+      "ndkSupportedAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "ndkDefaultAbiList": [
+        "ARMEABI_V7A",
+        "ARM64_V8A",
+        "X86",
+        "X86_64"
+      ],
+      "cmakeToolchainFile": "."
+    },
+    "buildSystemArgumentList": [],
+    "cFlagList": [],
+    "cppFlagsList": [
+      "-frtti -fexceptions"
+    ],
+    "variantName": "debug",
+    "soFolder": "D:\\ravi_android_projects\\NYTimes\\app\\build\\intermediates\\cmake\\debug\\lib",
+    "objFolder": "D:\\ravi_android_projects\\NYTimes\\app\\build\\intermediates\\cmake\\debug\\obj",
+    "jsonFolder": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cmake\\debug",
+    "gradleBuildOutputFolder": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cxx\\debug",
+    "isDebuggableEnabled": true,
+    "validAbiList": [
+      "ARMEABI_V7A",
+      "ARM64_V8A",
+      "X86",
+      "X86_64"
+    ],
+    "buildTargetSet": []
+  },
+  "abi": "ARM64_V8A",
+  "abiPlatformVersion": 16,
+  "cxxBuildFolder": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cmake\\debug\\arm64-v8a",
+  "jsonFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cmake\\debug\\arm64-v8a\\android_gradle_build.json",
+  "gradleBuildOutputFolder": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cxx\\debug\\arm64-v8a",
+  "objFolder": "D:\\ravi_android_projects\\NYTimes\\app\\build\\intermediates\\cmake\\debug\\obj\\arm64-v8a",
+  "buildCommandFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_command.txt",
+  "buildOutputFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_output.txt",
+  "modelOutputFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cmake\\debug\\arm64-v8a\\build_model.json",
+  "cmake": {
+    "cmakeListsWrapperFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cxx\\debug\\arm64-v8a\\CMakeLists.txt",
+    "toolchainWrapperFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cxx\\debug\\arm64-v8a\\android_gradle_build.toolchain.cmake",
+    "buildGenerationStateFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cxx\\debug\\arm64-v8a\\build_generation_state.json",
+    "cacheKeyFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_key.json",
+    "compilerCacheUseFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_use.json",
+    "compilerCacheWriteFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_cache_write.json",
+    "toolchainSettingsFromCacheFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cxx\\debug\\arm64-v8a\\compiler_settings_cache.cmake",
+    "cmakeWrappingBaseFolder": "."
+  },
+  "jsonGenerationLoggingRecordFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cmake\\debug\\arm64-v8a\\json_generation_record.json",
+  "compileCommandsJsonFile": "D:\\ravi_android_projects\\NYTimes\\app\\.cxx\\cmake\\debug\\arm64-v8a\\compile_commands.json"
+}
